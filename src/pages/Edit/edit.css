@@ -1,0 +1,97 @@
+/* editPage */
+.editPage{
+    padding: 0px 130px;
+}
+
+.editPage .title{
+    font-size: 35px;
+}
+
+.editPage button{
+    border: none;
+    outline: none;
+}
+
+/* editPageContainer */
+.editPageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 0px;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    /* background-color: #F9FBFA; */
+    background-color: #f4f4f4;
+    height: 100%;
+    width: 100%;
+}
+
+/* editPageContainerContext */
+.editPageContainerContext{
+    height: 100%;
+    width: 60%;
+}
+
+/* editPageInputField */
+.editPageInputField{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.editPageInputField input{
+    outline: none;
+    padding: 12px 22px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #dadada;
+}
+
+.editPageInputField select{
+    padding: 12px 0px;
+    border: 1px solid #999;
+    outline: none;
+}
+
+/* editDescription */
+.editDescription{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    border: 1px solid #dadada;
+    outline: none;
+    padding: 14px 22px;
+    border-radius: 3px;
+}
+/* editPageBtn */
+#editPageBtn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #ffce74;
+    color: #fff;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+    padding: 12px 22px;
+    margin-top: 20px;
+}
+
+/* Responsive Edit Design */
+@media screen and (max-width: 480px){
+    .editPage{
+        padding: 0px 22px;
+    }
+
+    .editPageContainerContext{
+        width: 100%;
+    }
+
+    .editPageContainerContext .title{
+        font-size: 20px;
+        white-space: nowrap;
+    }
+}

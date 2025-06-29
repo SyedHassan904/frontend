@@ -1,0 +1,16 @@
+/* saved-design-container */
+.design-grid{
+    padding: 5% 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Responsive Saved Design Page */
+@media screen and (max-width: 480px){
+    .design-grid{
+        padding: 0px;
+        grid-template-columns: 1fr;
+    }
+} 

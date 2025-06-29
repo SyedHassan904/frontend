@@ -1,0 +1,78 @@
+/* hideContent */
+.hideContent{
+    display: none;
+}
+
+/* ViewDesignSection */
+.ViewDesignSection{ 
+    padding: 0px 130px;
+}
+
+/* viewImgSection */
+.viewImgSection{
+    display: flex;
+    gap: 50px;
+}
+
+/* imageSection */
+.imageSection{
+    flex: 1;
+}
+
+.imageSection img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* imgContextSecton */
+.imgContextSecton{
+    flex: 1;
+}
+
+.imageName{
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.imageStatus{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.imageDescription{
+    font-size: 16px;
+    color: #444;
+    margin-top: 15px;
+    padding-right: 100px;
+    line-height: 26px;
+}
+
+.imageCategory{
+    margin-top: 10px;
+}
+
+/* imgActionBtns */
+.imgActionBtns{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* promptPara */
+.promptPara{
+    margin-top: 20px;
+}
+
+/* Responsive ViewDesignPage */
+@media screen and (max-width: 480px){
+    .ViewDesignSection{
+        padding: 0px 22px;
+    }
+
+    .viewImgSection{
+        flex-direction: column;
+    }
+}
